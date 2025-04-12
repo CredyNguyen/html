@@ -1,0 +1,12 @@
+.box {
+    width: 1440px;
+    height: 2846px;
+  }
+  
+  .box .trang-ch {
+    position: fixed;
+    width: 1440px;
+    height: 2846px;
+    top: 0;
+    left: 0;
+  }

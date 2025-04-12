@@ -1,0 +1,78 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+</head>
+<body>
+<header>
+    
+    <table border="1" width="100%">
+        <tr>
+            <td><a href="./index.html">Trang chủ</a></td>
+            <td ><a href="./product.html">Sản phẩm</a></td>
+            <td><a href="./register.html">Đăng ký</a></td>
+            <td><a href="./login.html">Đăng nhập</a></td>
+        </tr>
+    </table>
+</header>
+<main>
+    <h1>Đăng ký tài khoản</h1>
+    <form action="https://tranvanhung.fitstu.net/download/front-end/test.php" method ="get">
+        <fieldset>
+            <legend>Form Đăng ký</legend>
+        Tên <input type="text" name="t" id=""> <br>
+        Email: <input type="email" name="e" id=""><br>
+        Mật khẩu: <input type="password" name="pw" id=""> <br>
+        Giới tính <input type="radio" name="gt" value="nam">Nam
+        <input type="radio" name="gt" value="nu">Nữ <br>
+        Sở thích: 
+        <input type="checkbox" name="st[]" value="1">Thể thao
+        <input type="checkbox" name="st[]" value="2">Du lịch <br>
+        Ảnh đại diện:
+        <input type="file" name="avt" id="">
+        Ngày sinh:
+        <input type="date" name="ns" id=""> <br>
+        Lớp: <select name="lop" id="">
+            <option value="01">TH01</option>
+            <option value="02">TH02</option>
+            <option value="02">TH03</option>
+            <option value="02">TH04</option>
+            <option value="02">TH05</option>
+            <option value="02">TH06</option>
+            <option value="02">TH07</option>
+            <option value="02">TH08</option>
+            <option value="02">TH09</option>
+            <option value="02">TH10</option>
+        </select> <br>
+        <input type="hidden" name="role" value="admin">
+       Thông tin thêm:
+        <textarea name="khac" id=""></textarea> <br>
+        <input type="submit" name="" value="Gửi">
+        <input type="reset" value="Xóa">
+        </fieldset>
+    </form>
+</main>
+<footer>
+    <table border="1"width="70%"align="center">
+    <tr>
+        <td>
+            <h1>Thông tin liên hệ</h1><br>
+            <img src="./img/icon-call.jpg" alt="">0792132904<br>
+            <a href="https://id.zalo.me/account?continue=http%3A%2F%2Fzalo%2Eme%2F0937927685"><img src="./img/icon-zalo.jpg" alt=""></a><br>
+            <a href="https://www.facebook.com/sangotunhiesangoviet"><img src="./img/icon-fb.jpg" atl="đường dẫn"></a>
+        </td>
+        <td><h1>Hướng dẫn mua hàng</h1>
+            <a href="./login.html">Đăng nhập</a><br>
+            <a href="./register.html">Đăng ký</a>
+        </td>
+        <td align="center">
+            Vị trí<br>
+            <a href="https://maps.app.goo.gl/oJojCYFQyo5bkfrf7"></a><img src="./img/vitri-180-cao-lo.jpg" alt="Vị trí">
+        </td>     
+    </tr>
+   </table>
+</footer>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://tranvanhung.fitstu.net/download/front-end/test.php" method="get">
+        Ten: <input type="text" name="t" placeholder="Nhap ten"><br>
+        mkhau: <input type="password" name="p" id=""><br>
+        gtinh: <input type="radio" name="gt" value="1">Nam
+        <input type="radio" name="gt" value="0">Nu<br>
+        Sothich: <input type="checkbox" name="st[]" value="1" checked>The thao
+        <input type="checkbox" name="st[]" value="2">DuLich<br>
+        Lop <select name="lop" id="">
+            <option value="1">TH-01</option>
+            <option value="2">TH-02</option>
+            <option value="3">TH-03</option>
+        </select><br>
+        <input type="submit" value="gui">
+    
+    </form>
+    <h1>POST</h1>
+    <form action="https://tranvanhung.fitstu.net/download/front-end/test.php" method="post" enctype="multipart/form-data">
+        <!-- phan enctype de gui hinh file  -->
+        Ten: <input type="text" name="t" placeholder="Nhap ten"><br>
+        mkhau: <input type="password" name="p" id=""><br>
+        gtinh: <input type="radio" name="gt" value="1">Nam
+        <input type="radio" name="gt" value="0">Nu<br>
+        Sothich: <input type="checkbox" name="st[]" value="1" checked>The thao
+        <input type="checkbox" name="st[]" value="2">DuLich<br>
+        Lop <select name="lop" id="">
+            <option value="1">TH-01</option>
+            <option value="2" selected>TH-02</option>
+            <option value="3">TH-03</option>
+        </select><br>
+        GuiFileanh: <input type="file" name="h" id=""><br>
+        <input type="submit" value="gui">
+    
+    </form>
+</body>
+</html>

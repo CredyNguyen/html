@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- form[action='1.php'][method='get']>input[type='color']*2 -->
+    <form action="1.php" method="get"><input type="color"><input type="color"></form>
+    <!-- form[action='1.php'][method='get']>(input[type='color']+hr)*2 -->
+
+    <!-- table#id1>tr*2>td*2{$} -->
+    <table id="id1">
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+    </table>
+
+    <!-- ul#id2[class='u1']>li*2>a[href='$.php']{LLink $} -->
+    <!-- ul#id2.u1>li*2>a[href='$.php']{LLink $} -->
+
+    <ul id="id2" class="u1">
+        <li><a href="1.php">LLink 1</a></li>
+        <li><a href="2.php">LLink 2</a></li>
+    </ul>
+
+    <!-- p.c*2>lorem2 -->
+    <p class="c">Lorem, ipsum.</p>
+    <p class="c">Totam, debitis.</p>
+
+    <!-- div.c*2>lorem2 -->
+    <!-- .c*2>lorem2 =>chi danh rieng cho div -->
+    <div class="c">Lorem, ipsum.</div>
+    <div class="c">Suscipit, vero?</div>
+
+
+</body>
+
+</html>
